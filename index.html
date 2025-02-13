@@ -2,11 +2,12 @@
 <html>
     <head>
         <title>frist project</title>
+        
         <style>
             body{
                 background-color: #105976;
-                flex-wrap: wrap;
             }
+            
             .one{
                 display: flex;
                 justify-content: flex-end;
@@ -28,18 +29,19 @@
                 flex-direction: column;
                 justify-content: space-around;
                 align-items: center;
-                padding-right: 300px;
+                padding-right: 200px;
                 gap: 25px;
             }
-            input{
+            button{
                 font-size: 40px;
                 padding-top: 25px;
                 padding-bottom: 25px;
-                width: 500px;
-                height: 20px;
+                width: 570px;
+                height: 90px;
                 border-radius: 15px;
                 background-color: #105976;
                 color: white;
+                text-align: start;
             
             }
             .four{
@@ -51,8 +53,15 @@
             h1{
                 font-size: 70px;
             }
-            input::placeholder{
-                color: white;
+            .icon-link{
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                cursor: pointer;
+                text-align: end;
+                padding-bottom: 260px;
+                border-radius: 20px;
+                
             }
         </style>
     </head>
@@ -60,26 +69,31 @@
     <div class="one">
         🕸️⏪⚡✨
     </div>
-    <div class="two">
+      <div class="two">
         <div class="four">
         <h1>WELCOME TO THE FRONTEND QUIZ!</h1>
-        <P>Pick a subjuct to get started.</P>
+        <P>Pick a subject to get started.</P>
         </div>
         <div class="three">
            <div>
-               <input type="" placeholder=" </>  HTML">
+               <button> ⏪  HTML </button>
             </div>
              <div>
-                <input type="" placeholder="📱  CSS">
+                <button> 📱  CSS </button>
             </div>
             <div>
-                <input type=""  placeholder="｡🇯‌🇸‌  Javascript">
+                <button>｡🇯‌🇸‌  Javascript</button>
             </div>
             <div>
-                <input type=""  placeholder="👨‍💻  Accessibility">
+                <button> 👨‍💻  Accessibility </button>
             </div>
         </div>
     </div>
+    <nav>
+    <a href="page1.html" class="icon-link">
+        <img src="icon 2.png"/>
+    </a>
+    </nav>
 </body>
 
 
